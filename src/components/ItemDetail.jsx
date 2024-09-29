@@ -1,4 +1,5 @@
 
+import { toCapital } from "../helpers/toCapital"
 const ItemDetail = ({item}) => {
     return (
         <div className="container">
@@ -7,7 +8,7 @@ const ItemDetail = ({item}) => {
                 <div>
                     <h3 className="titulo">{item.titulo}</h3>
                     <p className="descripcion">{item.descripcion}</p>
-                    <p className="categoria">Categoría:{item.categoria}</p>
+                    <p className="categoria">Categoría: {toCapital(item.categoria)}</p>
                     <p className="precio">${item.precio}</p>
                 </div>
             </div>
