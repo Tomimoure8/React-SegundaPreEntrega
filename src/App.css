@@ -188,3 +188,23 @@ a {
   background-color: black;
 }
 
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  align-items: flex-start;
+}
+
+.formulario input {
+  padding: .5rem;
+  width: 18rem;
+  border-radius: .5rem;
+  border: 2px solid #007bff;
+}
+
+.formulario input:focus {
+  outline: 0;
+  border: 2px solid greenyellow;
+  outline: 2px solid  greenyellow;
+}
+

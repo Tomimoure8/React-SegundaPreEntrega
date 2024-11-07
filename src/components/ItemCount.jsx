@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import Item from './Item'
+import React from 'react'
+
 
 const ItemCount = ( {cantidad, handleRestar, handleSumar, handleAgregar} ) => {
 
